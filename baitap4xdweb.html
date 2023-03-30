@@ -1,118 +1,104 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Học Lập Trình Bài Tập 4</title>
 </head>
 <body>
-    <table width="500"  cellpadding="0" cellspacing="8" align="center">
-        <tr>
-            <td colspan="3" align="center">
-                <font>
-                    <h1>Pete's Pizza Delivery</h1>
-                    <h2>Oline Order Form</h2>
-                    *required fields
-                 </font>
+    <table width="500" height="700" cellpadding="" cellspacing="" align="center">
+            <tr>
+                <td align="center" colspan="3">
+                <h1>Pete's Pizza Delivery</h1>
+                <h2>Oline Order Form</h2>
+                *required fields
             </td>
-        </tr>
-        <tr>
-                <td width="110">
-                    Customer details <br>
-                    <br>
-                    *Name:
+            </tr>
+            <tr>
+                <td valign="top" colspan="3">
+                    <form action="" method="">
+                        <fieldset>
+                        <label for="your">*Name:</label>
+                        <input type="text" name="your" id="your" size="30">
+                        <br>
+                        <label for="address">*Address:</label>
+                        <input type="text" name="your" id="address" size="40">
+                        <br> 
+                        <label for="Town">*Town/city:</label>
+                        <input type="text" name="your" id="Town" size="13">
+                        <br> 
+                        <label for="Postcode">*Postcode:</label>
+                        <input type="text" name="your" id="Postcode" size="10">
+                        <br> 
+                        <label for="Email">*Email:</label>
+                        <input type="Email" name="Email" id="Email" size="40"> 
+                        <legend>Customer details</legend>
+                    </fieldset>
                 </td>
-
-                <td colspan="2"> <br>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <fieldset>
+                    <input type="radio" name="Margherrita" id="Margherrita"> 
+                    <label for="Margherrita">Margherrita</label>
                     <br>
-                    <input type="text" name="*Name" size="23">
+                    <input type="radio" name="FourScasons" id="FourScasons">
+                    <label for="FourScasons">FourScasons</label>
+                    <br>
+                    <input type="radio" name="Meat Feast" id="Meat Feast">
+                    <label for="Meat Feast">Meat Feast</label>
+                    <legend>Topping* </legend>
+                    </fieldset>
                 </td>
-                
-            </td>
-        </tr>
-        <tr>
-            <td>*Address:</td>
-            <td colspan="2">
-                <input type="text" name="*Address" size="35">
-            </td>
-        </tr>
-        <tr>
-            <td>*Town/city:</td>
-            <td colspan="2">
-                <input type="text" name="*Name" size="10">
-            </td>
-
-        </tr>
-        <tr>
-            <td>*Postcode:</td>
-            <td colspan="2">
-                <input type="text" name="*Postcode:" size="3">
-            </td>
-        </tr>
-        <tr>
-            <td>*Tel:</td>
-            <td colspan="2">
-                <input type="text" name="**Tel:" size="10">
-            </td>
-        </tr>
-        <tr>
-            <td>*Email:</td>
-            <td colspan="2">
-                <input type="text" name="**Email:" size="35">
-            </td>
+                <td valign="top">
+                    <fieldset>
+                    <input type="radio" name="Small" id="Small"> 
+                    <label for="Small">Small</label>
+                    <br>
+                    <input type="radio" name="Medium" id="Medium">
+                    <label for="Medium">Medium</label>
+                    <br>
+                    <input type="radio" name="Lage" id="Lage">
+                    <label for="Lage">Lage</label>
+                    <legend>Size* </legend>
+                </fieldset>
+                </td>
+                <td valign="top">
+                    <fieldset>
+                    <input type="checkbox" name="Mushrooms" id="Mushrooms"> 
+                    <label for="Mushrooms">Mushrooms</label>
+                    <br>
+                    <input type="checkbox" name="Green peppcrs" id="Green peppcrs">
+                    <label for="Green peppcrs">Green peppcrs</label>
+                    <br>
+                    <input type="checkbox" name="Anchovies" id="Anchovies">
+                    <label for="Anchovies">Anchovies</label>
+                    <br>
+                    <input type="checkbox" name="Extra cheese" id="Extra cheese">
+                    <label for="Extra cheese">Extra cheese</label>
+                    <legend>Extras*</legend>
+                </fieldset>
+                </td>
+            </tr>
             <tr>
                 <td colspan="3">
-                    <br>
-                    <br>
+                    <fieldset>
+                    <label for="">Prefrred delvery time:</label>
+                    <input type="submit" value="--:--"> <br> <br>
+                    Delivery instructions: <br>
+                    <textarea name="" id="" cols="55" rows="5"></textarea>
+                    <legend>Delivery</legend>
+                </fieldset>
                 </td>
-        </tr>
-        <tr>
-            <td valign="top" width="50">
-                Topping* <br>
-                <input type="radio">
-                <label for="">Margherrita </label> <br>
-                <input type="radio">
-                <label for="">FourScasons</label> <br>
-                <input type="radio">
-                <label for="">Meat Feast</label>
-            </td>
-            <td valign="top">
-                Size* 
-                <br>
-                <input type="radio">
-                <label for="">Small</label> <br>
-                <input type="radio">
-                <label for="">Medium</label> <br>
-                <input type="radio">
-                <label for="">Lage</label>
-            </td>
-            <td height="120" valign="top">
-                Extras*
-                <br>
-                <input type="checkbox">
-                <table foll="">Mushrooms</table>
-                <input type="checkbox">
-                <table foll="">Green peppcrs</table> 
-                <input type="checkbox">
-                <table foll="">Anchovies</table>
-                <input type="checkbox">
-                <table foll="">Extra cheese</table>
-            </td>
-            <br>    
-        </tr>
-        <tr>
-            <td colspan="3">
-                Delivery <br>
-                <br>
-                Prefrred delvery time:
-                <input type="submit" value="--:--"> <br>
-                <br>
-                Delivery instructions: <br>
-                <textarea name="" id="" cols="30" rows="4" ></textarea>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="3" align="center" height="50">
-                <input type="submit" value="Submit order">
-            </td>
-        </tr>
+            </tr>
+            <tr>
+                <td align="center" colspan="3">
+                    <br>
+                    <input type="submit" value="Submit order">
+                </td>
+            </tr>
+        </form>
     </table>
 </body>
 </html>
