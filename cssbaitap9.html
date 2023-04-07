@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS pseudo element</title> 
+    <style>
+        p::first-letter {
+                      color: rgb(3, 100, 0);
+                      font-size: 2rem;
+        }
+        p::first-line { 
+                    color: darkred;
+        }
+        span::before {
+                   ontent: 'www.';
+        }
+        span::after {
+                  content: '.com.vn';
+        }
+
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ducimus ipsum ab doloribus quisquam repudiandae id inventore totam velit laborum fugit, nobis dolores quasi, amet distinctio itaque aperiam accusamus! Eaque.
+    </p>
+    <span>google</span>
+</body>
+</html>
