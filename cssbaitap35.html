@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex in css</title>
+    <style>
+        .container {
+            width: 1000px;
+            background-color: rgb(20, 85, 85);
+            margin: 0px auto;
+            display: flex;
+        }
+
+        .item {
+            background-color: coral;
+            border: 1px solid white;
+            height: 150px;
+            width: 150px;
+        }
+
+        .item:nth-of-type(1) {
+            order: 5;
+        }
+
+        .item:nth-of-type(2) {
+            order: 4;
+        }
+
+        .item:nth-of-type(3) {
+            order: 3;
+        }
+
+        .item:nth-of-type(4) {
+            order: 2;
+        }
+
+        .item:nth-of-type(5) {
+            order: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+        <div class="item">item4</div>
+        <div class="item">item5</div>
+    </div>
+</body>
+</html>
