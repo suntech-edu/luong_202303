@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(90deg, #844992, #ea6b7d, #ffb45f);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column ;
+    justify-content: center;    
+    align-items: center;
+    padding-top: 50px;
+}
+
+.main {
+    width: 350px;
+    height: 550px;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    border: 3px solid antiquewhite;
+    background: #f7f7f7;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: inset 2px 2px 4px #a6a6a6, inset -2px -2px 4px #e2e2e2 ;
+}
+
+.screen {
+    width: 330px;
+    height: 100px;
+    box-shadow:  inset 2px 2px 4px #a6a6a6, inset -2px -2px 4px #e2e2e2 ;
+    border: none;
+    border-radius: 15px;
+}
+
+.item {
+    border-radius: 50px;
+    border: none;
+    width: 70px;
+    height: 70px;
+    font-size: 22px;
+    margin: 2px;
+    font-weight: bold;
+    color: #54068c;
+    box-shadow:  inset 2px 2px 4px #a6a6a6, inset -2px -2px 4px #e2e2e2 ;
+}
+
+.ac {
+    background-color: #ffcc02;
+}
+
+.blue {
+    color: #05ae2f;
+} 
+
+.sign {
+    border-radius: 60px;
+    width: 150px;
+    height: 65px;
+    font-size: 20px;
+    border: none;
+    box-shadow:  inset 2px 2px 4px #a6a6a6, inset -2px -2px 4px #e2e2e2 ;
+    background-color: #3f0472;
+    font-weight: bold;
+    color: #ffffff;
+}
+
