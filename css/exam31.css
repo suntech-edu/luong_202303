@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+.container {
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+header {
+    width: 100%;
+    min-height: 150px;
+    margin-top: 20px !important;
+}
+
+header .logo, header .slogan {
+    float: left;
+}
+
+header .logo {
+    width: 10%;
+}
+
+header .slogan {
+    width: 90%;
+}
+
+header .slogan h2 {
+    line-height: 125px ;
+    width: 100%;
+    text-align: center;
+    color:#f16b22;
+    text-transform: uppercase;
+    font-size: 2.4em;
+}
+
+/* Menu */
+
+nav {
+    background: #57a929;
+    height: 45px;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    line-height: 45px   ;
+    padding: 0px 30px 0px 30px;
+    font-size: 1.3em;
+}
+
+nav ul li a:hover {
+    background-color: #f16b22;
+}
+
+/* main */
+
+main {
+    width: 100%;
+}
+
+#main-left {
+    float: left;
+    width: 77%;
+}
+
+#main-left .new-item {
+    float: left;
+    width: 100%;
+    padding: 10px 10px 10px 0px;
+}
+
+#main-left .new-item img {
+    float: left;
+    margin-right: 10px;
+}
+
+#main-left .new-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+#main-left .new-item p {
+    margin-bottom: 15px ;
+    min-height: 160px   ;
+    line-height: 25px;
+}
+
+#main-right {
+    float: left;
+    width: 23%;
+}
+
+#main-right h3 {
+    font-size: 1.5em;
+    margin-top: 10px    ;
+}
+
+#main-right ul {
+    list-style-type: none;
+    background: #e8e8e8;
+    padding: ;
+}
+
+#main-right ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    line-height: 30px;
+    font-weight: bold;
+    text-indent: 15px;
+}
+
+#main-right ul li a:hover {
+    background-color: #f16b22;
+}
+
+#main-right .ads img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+/* footer */
+
+footer {
+    clear: both;
+    height: 60px;
+    background: #0d2201;
+    line-height: 60px;
+    width: 100%;
+    color: #e8e8e8;
+    text-align: center;
+}
