@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hành dựng khung giao diện với css</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #header {
+            width: 1024px;
+            height: 60px;
+            background: lightslategray;
+            text-align: center;
+            color: white;
+            line-height: 60px;
+            font-weight: bold;
+            margin: auto;
+        }
+
+        #menu {
+            width: 1024px;
+            height: 30px;
+            background: sienna;
+            text-align: center;
+            line-height: 30px;
+            color: white;
+            font-weight: bold;
+            margin: auto;
+        }
+
+        #left {
+            width: 200px;
+            min-height: 600px;
+            background: silver;
+            float: left;
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            line-height: 600px;
+        }
+
+        #center {
+            width: 624px;
+            min-height: 600px;
+            background: seashell;
+            float: left;
+            text-align: center;
+            line-height: 600px;
+            color: black;
+            font-weight: bold;
+        }
+
+        #right {
+            width: 200px;
+            min-height: 600px;
+            background: silver;
+            float: left;
+            text-align: center;
+            font-weight: bold;
+            color: black;
+            line-height: 600px;
+        }
+
+        #main {
+            margin: auto;
+            width: 1024px;
+        }
+
+        #footer {
+            width: 1024px;
+            height: 30px;
+            line-height: 30px;
+            font-weight: bold;
+            text-align: center;
+            background-color: brown;
+            clear: left;
+            margin: auto;
+            color: white        ;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">Header</div>
+    <div id="menu">Menu</div>
+    <div id="main">
+    <div id="left">Left</div>
+    <div id="center">Center</div>
+    <div id="right">Right</div>
+    </div>
+    <div id="footer">Footer</div>
+</body>
+</html>
